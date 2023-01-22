@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_expense_cliam *.css
+recursive-include custom_expense_cliam *.csv
+recursive-include custom_expense_cliam *.html
+recursive-include custom_expense_cliam *.ico
+recursive-include custom_expense_cliam *.js
+recursive-include custom_expense_cliam *.json
+recursive-include custom_expense_cliam *.md
+recursive-include custom_expense_cliam *.png
+recursive-include custom_expense_cliam *.py
+recursive-include custom_expense_cliam *.svg
+recursive-include custom_expense_cliam *.txt
+recursive-exclude custom_expense_cliam *.pyc
